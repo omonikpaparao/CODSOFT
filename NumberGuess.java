@@ -19,8 +19,8 @@ class  NumberGuess{
             Random r=new Random();
             omprnumber=r.nextInt(100)+1;
             System.out.printf("Game %d is Started!!!\n",i+1);
-            System.out.println("You will have 5 Chances to Guess Magic Number!!!");
-            for(j=0;j<5;j++)
+            System.out.println("You will have 7 Chances to Guess Magic Number!!!");
+            for(j=0;j<7;j++)
             {
                 System.out.printf("Enter Your Guess %d Here:",j+1);
                 g=s.nextInt();
